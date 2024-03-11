@@ -7,6 +7,7 @@ public class Calculadora {
     final static int RESTA=2;
     final static int MULTIPLICACION=3;
     final static int DIVISION=4;
+    final static int RAIZ=5;
     /**
      *
      * @param num1 Primer numero con el que se va a realizar la operación
@@ -34,6 +35,11 @@ public class Calculadora {
                 }finally{
                     break;
                 }
+            case RAIZ:
+                float indice = num2;
+                if (indice == 2)        resultado = (float) (Math.sqrt(num1));
+                else if (indice == 3)   resultado = (float) (Math.cbrt(num1));
+                else                    resultado = null;
             default:
                 resultado=null;
         }
