@@ -12,4 +12,8 @@ Con esta operación podemos realizar la raíz con cualquier combinación de núm
 Hago checkout a main y ```git merge --squash raices```. \
 Después hago un commit y push.
 
+## Creamos .jar
+Creamos el .jar en Opciones>Project Structure>Artifacts>.jar \
+Construimos el jar con Build>Build Artifact
+
 ## Lanzamos release
