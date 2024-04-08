@@ -3,11 +3,11 @@ package LibreriaCalc;
 import javax.swing.*;
 
 public class Calculadora {
-    final static int SUMA=1;
-    final static int RESTA=2;
-    final static int MULTIPLICACION=3;
-    final static int DIVISION=4;
-    final static int RAIZ=5;
+    public final static int SUMA=1;
+    public final static int RESTA=2;
+    public final static int MULTIPLICACION=3;
+    public final static int DIVISION=4;
+    public final static int RAIZ=5;
     /**
      *
      * @param num1 Primer numero con el que se va a realizar la operación
